@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aashish Editz — After Effects Editor & Cinematic Storyteller</title>
+  <meta name="description" content="Aashish is an After Effects editor crafting high-impact, cinematic edits on your favourite movies and TV shows. Always something different." />
+  <link rel="icon" href="channels4_profile.jpg" type="image/jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Background Atmosphere -->
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-gradient"></div>
+    <div class="stars stars-1" aria-hidden="true"></div>
+    <div class="stars stars-2" aria-hidden="true"></div>
+    <div class="bg-glow" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+  </div>
+  <div class="header-blur" aria-hidden="true"></div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">
+        <img class="logo-img" src="channels4_profile.jpg" alt="Aashish Editz logo" width="40" height="40" />
+        <span class="logo-text">AASHISH&nbsp;EDITZ</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#showreel">Showreel</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a href="#contact" class="nav-hire btn-outline">Hire Me</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE MENU OVERLAY ============ -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button class="menu-close" id="menuClose" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <nav class="mobile-links" aria-label="Mobile">
+      <a href="#services">Services</a>
+      <a href="#showreel">Showreel</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="#contact" class="menu-hire btn-outline">Hire Me</a>
+  </div>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <div class="badge animate-fade-up" style="animation-delay: 0.1s">
+          <span class="badge-dot">
+            <span class="ping"></span>
+            <span class="dot"></span>
+          </span>
+          Available For Work
+          <svg class="badge-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </div>
+
+        <h1 class="hero-title animate-fade-up" style="animation-delay: 0.2s">
+          <span class="line"><span>Editing Stories</span></span>
+          <span class="line"><span>That Move</span></span>
+          <span class="line"><span>Audiences</span></span>
+        </h1>
+
+        <p class="hero-sub animate-fade-up" style="animation-delay: 0.3s">After Effects Editor &amp; Cinematic Storyteller</p>
+
+        <p class="hero-desc animate-fade-up" style="animation-delay: 0.35s">Crafting high-impact edits on your favourite movies and TV shows. Always something different.</p>
+
+        <div class="hero-cta animate-fade-up" style="animation-delay: 0.4s">
+          <a href="#showreel" class="shiny-cta">
+            <span class="cta-label">
+              View Projects
+              <svg class="cta-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </a>
+          <a href="#contact" class="btn-secondary">Hire Me</a>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+        SCROLL
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about section" id="about">
+      <div class="container container-narrow">
+        <div class="section-head animate-fade-up">
+          <span class="section-label">About</span>
+          <div class="divider"></div>
+          <h2 class="section-title">Turning Raw Footage Into Cinematic Moments</h2>
+        </div>
+        <div class="about-body animate-fade-up">
+          <p>Hi, I'm Aashish — an After Effects editor obsessed with the art of visual storytelling.
+             Whether it's reimagining iconic movie scenes or crafting original cinematic sequences,
+             every edit I make is built to evoke emotion and keep eyes locked to the screen.</p>
+          <p>My work lives at the intersection of technical precision and creative chaos.
+             If you're looking for edits that don't just play — but perform — you're in the right place.</p>
+          <p class="about-highlight"><strong>Always Something Different.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SHOWREEL ============ -->
+    <section class="showreel section" id="showreel">
+      <div class="container">
+        <div class="section-head animate-fade-up">
+          <span class="section-label">Selected Work</span>
+          <div class="divider"></div>
+          <h2 class="section-title">Showreel</h2>
+        </div>
+
+        <div class="showreel-grid">
+          <!-- Cards populated by script.js from VIDEOS -->
+          <noscript>
+            <div class="showreel-noscript">Enable JavaScript to load the showreel grid.</div>
+          </noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-head animate-fade-up">
+          <span class="section-label">Services</span>
+          <div class="divider"></div>
+          <h2 class="section-title">What I Do</h2>
+        </div>
+        <div class="service-pills animate-fade-up">
+          <span class="pill">Fan Edits</span>
+          <span class="pill">Trailer Style Cuts</span>
+          <span class="pill">Color Grading</span>
+          <span class="pill">Motion Graphics</span>
+          <span class="pill">Smooth Transitions</span>
+          <span class="pill">VFX Compositing</span>
+          <span class="pill">Sound Design</span>
+          <span class="pill">Title Sequences</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats-section animate-fade-up" id="stats">
+      <div class="container stats-grid">
+        <div class="stat">
+          <span class="stat-num">50+</span>
+          <span class="stat-label">Edits Delivered</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">After Effects</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">24h</span>
+          <span class="stat-label">Turnaround Available</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container container-narrow">
+        <div class="section-head animate-fade-up">
+          <span class="section-label">Testimonials</span>
+          <div class="divider"></div>
+          <h2 class="section-title">What Creators Say</h2>
+        </div>
+        <div class="testimonial-list">
+          <div class="testimonial-card animate-fade-up">
+            <span class="quote-mark">"</span>
+            <p class="quote">Aashish turned our raw footage into something that looked like a Netflix trailer. The transitions were insane.</p>
+            <span class="author">Rahul K. <span class="role">— Content Creator</span></span>
+          </div>
+          <div class="testimonial-card animate-fade-up" style="animation-delay: 0.1s">
+            <span class="quote-mark">"</span>
+            <p class="quote">Finally an editor who understands cinematic pacing. Every cut hit exactly where it needed to.</p>
+            <span class="author">Priya M. <span class="role">— Film Student</span></span>
+          </div>
+          <div class="testimonial-card animate-fade-up" style="animation-delay: 0.2s">
+            <span class="quote-mark">"</span>
+            <p class="quote">Hired him for a movie recap edit. The After Effects work was cleaner than most professional studios.</p>
+            <span class="author">Arjun S. <span class="role">— YouTuber</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq section" id="faq">
+      <div class="container container-narrow">
+        <div class="section-head animate-fade-up">
+          <span class="section-label">FAQ</span>
+          <div class="divider"></div>
+          <h2 class="section-title">Common Questions</h2>
+        </div>
+        <div class="accordion animate-fade-up">
+          <div class="acc-item">
+            <button class="acc-q" aria-expanded="false">
+              What software do you use?
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="acc-a">
+              <div class="acc-a-inner">
+                <p>Adobe After Effects is my primary tool. I also use Premiere Pro for assembly and DaVinci Resolve for color grading when needed.</p>
+              </div>
+            </div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-q" aria-expanded="false">
+              What type of content do you edit?
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="acc-a">
+              <div class="acc-a-inner">
+                <p>I specialize in movie and TV show edits, fan trailers, cinematic recaps, and original short-form content. If it's story-driven, I can cut it.</p>
+              </div>
+            </div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-q" aria-expanded="false">
+              How do I commission an edit?
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="acc-a">
+              <div class="acc-a-inner">
+                <p>Send me a message via the Hire Me button with your footage, deadline, and vision. I'll get back within 24 hours with a quote.</p>
+              </div>
+            </div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-q" aria-expanded="false">
+              What are your rates?
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="acc-a">
+              <div class="acc-a-inner">
+                <p>Rates depend on complexity and length. Simple edits start affordably, while heavy VFX and motion graphics work is priced per project.</p>
+              </div>
+            </div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-q" aria-expanded="false">
+              How long does a typical edit take?
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="acc-a">
+              <div class="acc-a-inner">
+                <p>A standard 60-second cinematic edit takes 2–3 days. Rush delivery is available for urgent projects.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / CTA ============ -->
+    <section class="contact section" id="contact">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="container container-narrow">
+        <div class="section-head animate-fade-up">
+          <h2 class="section-title">Let's Create Something Iconic</h2>
+        </div>
+        <p class="contact-sub animate-fade-up" style="animation-delay: 0.1s">Available for commissions, collaborations, and long-term projects.</p>
+        <div class="contact-cta animate-fade-up" style="animation-delay: 0.2s">
+          <a href="mailto:aashisheditz12@gmail.com" class="shiny-cta">
+            <span class="cta-label">
+              Hire Me
+              <svg class="cta-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </a>
+        </div>
+        <p class="contact-email animate-fade-up" style="animation-delay: 0.3s">
+          <a href="mailto:aashisheditz12@gmail.com">aashisheditz12@gmail.com</a>
+        </p>
+        <div class="socials animate-fade-up" style="animation-delay: 0.4s">
+          <a href="https://www.youtube.com/@AashishEditz." target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8zM9.5 15.5v-7l6.5 3.5z"/></svg>
+            <span>YouTube</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Aashish Editz. All rights reserved.</span>
+      <span class="footer-made">
+        Site by <a href="https://scalecrafthub.github.io" target="_blank" rel="noopener noreferrer">ScaleCraft</a>
+      </span>
+    </div>
+  </footer>
+
+  <!-- ============ VIDEO LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" data-close></div>
+    <div class="lightbox-inner">
+      <button class="lightbox-close" data-close aria-label="Close video">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="lightbox-video" id="lightboxVideo"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
